@@ -1,4 +1,5 @@
 ﻿using Magicodes.ExporterAndImporter.Core;
+using Magicodes.ExporterAndImporter.Core.Models;
 using Magicodes.ExporterAndImporter.Excel;
 using PDF2XLS.Models;
 using SautinSoft;
@@ -89,7 +90,39 @@ namespace PDF2XLS.Tools
 
         }
 
-        
+        /// <summary>
+        /// 使用模板导出excel
+        /// </summary>
+        /// <param name="path"></param>
+        /// <param name="jh"></param>
+        /// <returns></returns>
+        public static async Task ExportByTemplate(string path, XyunJh jh)
+        {
+            try
+            {
+                //模板路径
+                string tplPath = Directory.GetCurrentDirectory() + @"\Files\Template.xlsx";
+                //创建Excel导出对象 
+                IExportFileByTemplate exporter = new ExcelExporter();
+                //导出路径 
+                var filePath = Path.Combine(Directory.GetCurrentDirectory(), path);
+                if (File.Exists(filePath)) File.Delete(filePath);
+                //根据模板导出 
+                await exporter.ExportByTemplate(filePath, jh, tplPath);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+        }
+
+
+        /// <summary>
+        /// 导出excel
+        /// </summary>
+        /// <param name="path"></param>
+        /// <param name="bsjhs"></param>
+        /// <returns></returns>
         public static async Task Export(string path, List<Bsjh> bsjhs)
         {
             IExporter exporter = new ExcelExporter();
