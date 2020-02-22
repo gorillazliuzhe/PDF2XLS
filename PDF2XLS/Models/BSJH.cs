@@ -1,5 +1,5 @@
-﻿using Magicodes.ExporterAndImporter.Core;
-using Magicodes.ExporterAndImporter.Excel;
+﻿//using Magicodes.ExporterAndImporter.Core;
+//using Magicodes.ExporterAndImporter.Excel;
 using System.Collections.Generic;
 
 namespace PDF2XLS.Models
@@ -50,7 +50,7 @@ namespace PDF2XLS.Models
         public string XingQi { get; set; }
 
         //[ExporterHeader(DisplayName = "线路号")]
-        public double LuXianHao { get; set; }
+        public int LuXianHao { get; set; }
 
         //[ExporterHeader(DisplayName = "线路名称")]
         public string LuXianName { get; set; }
@@ -83,6 +83,7 @@ namespace PDF2XLS.Models
         public string DaoDaTime { get; set; } = "";
 
         //[ExporterHeader(DisplayName = "公里数")]
-        public string GongLiShu { get; set; } = "";
-    }
+        public double GongLiShu { get; set; }
+    }   
+
 }
