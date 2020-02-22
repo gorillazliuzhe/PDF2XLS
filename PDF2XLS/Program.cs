@@ -1,79 +1,36 @@
-﻿using SautinSoft;
+﻿using PDF2XLS.Models;
+using PDF2XLS.Tools;
 using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Threading.Tasks;
 
 namespace PDF2XLS
 {
-    /// <summary>
-    /// https://www.sautinsoft.com/products/pdf-focus/download.php
-    /// </summary>
-    class Program
+    static class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
-            string pdfFile = @"c:\pdf\test.pdf";
-            //PdfToExcelAsFiles(pdfFile);
-            PdfToXMLAsFiles(pdfFile);
+            string pdfFile = Directory.GetCurrentDirectory() + @"\Files";
+            //DirectoryInfo folder = new DirectoryInfo(pdfFile);
+            //foreach (FileInfo file in folder.GetFiles())
+            //{
+            //    if (file.Extension.ToUpper() == ".PDF")
+            //    {
+            //        var b = ComHelper.PdfToXMLAsFiles(file.FullName);
+            //        Console.WriteLine(b ? file.Name + "生成数据成功" : file.Name + "生成数据失败");
+            //    }
+            //}
+            List<Bsjh> bsjhs = new List<Bsjh>
+            {
+                new Bsjh{Id=1,KeHu="肯德基",Riqi="2-22",XingQi="六",LuXianHao="6001",LuXianName="长春",XiangShu="275.16"
+                ,LiFangShu="275.16",ZhongLiang="3123.73",IceCar="Y",DunWei="3T",LuXian="长春钜城-长春环球中心-PH长春环球中心-长春龙嘉-长春东岭街-长春大经路- 长春万科缤纷里-长春君子兰-长春新长春站-九台鹏宏"
+                ,Driver="",CarNumber="",DaoDaTime="",GongLiShu=""
+                }
+            };
+            await ComHelper.Export(Directory.GetCurrentDirectory()+@"\jihua.xlsx", bsjhs);
             Console.WriteLine("ok");
             Console.ReadKey();
-        }
-
-        public static void PdfToExcelAsFiles(string pdfFile)
-        {
-            try
-            {
-               
-                string excelFile = Path.ChangeExtension(pdfFile, ".xls");
-
-                PdfFocus f = new PdfFocus();
-                // 'true' = Convert all data to spreadsheet (tabular and even textual).
-                // 'false' = Skip textual data and convert only tabular (tables) data.
-                f.ExcelOptions.ConvertNonTabularDataToSpreadsheet = false;
-
-                // 'true'  = Preserve original page layout.
-                // 'false' = Place tables before text.
-                f.ExcelOptions.PreservePageLayout = true;
-
-                f.OpenPdf(pdfFile);
-
-                if (f.PageCount > 0)
-                {
-                    f.ToExcel(excelFile);
-                }
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.ToString());
-            }
-           
-        }
-
-        public static void PdfToXMLAsFiles(string pdfFile)
-        {
-
-            string pathToXml = Path.ChangeExtension(pdfFile, ".xml");
-
-            // Convert PDF file to XML file.
-            SautinSoft.PdfFocus f = new SautinSoft.PdfFocus();
-
-            // This property is necessary only for registered version.
-            //f.Serial = "XXXXXXXXXXX";
-
-            // Let's convert only tables to XML and skip all textual data.
-            f.XmlOptions.ConvertNonTabularDataToSpreadsheet = false;
-
-            f.OpenPdf(pdfFile);
-
-            if (f.PageCount > 0)
-            {
-                int result = f.ToXml(pathToXml);
-
-                //Show XML document in browser
-                if (result == 0)
-                {
-                    System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo(pathToXml) { UseShellExecute = true });
-                }
-            }
         }
     }
 }

@@ -5,7 +5,16 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;S125</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <NoWarn>1701;1702;S125</NoWarn>
+  </PropertyGroup>
+
   <ItemGroup>
+    <PackageReference Include="Magicodes.IE.Excel" Version="2.1.0" />
     <PackageReference Include="sautinsoft.pdffocus" Version="7.3.1.21" />
   </ItemGroup>
 
