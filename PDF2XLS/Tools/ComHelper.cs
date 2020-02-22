@@ -127,6 +127,10 @@ namespace PDF2XLS.Tools
             await exporter.Export(path, bsjhs);
         }
 
+        /// <summary>
+        /// 删除目录文件
+        /// </summary>
+        /// <param name="srcPath"></param>
         public static void DelectDir(string srcPath)
         {
             DirectoryInfo dir = new DirectoryInfo(srcPath);
@@ -144,6 +148,11 @@ namespace PDF2XLS.Tools
                 }
             }
         }
+
+        /// <summary>
+        /// 获取星期几
+        /// </summary>
+        /// <returns></returns>
         public static string GetWeek()
         {
             string week = string.Empty;
@@ -172,6 +181,29 @@ namespace PDF2XLS.Tools
                     break;
             }
             return week;
+        }
+
+        /// <summary>
+        /// 获取辽宁所有城市
+        /// </summary>
+        /// <returns></returns>
+        public static List<CityTown> GetCityTownList()
+        {
+            List<CityTown> data = new List<CityTown> { new CityTown { CityName = "长春", TownName = "" } };
+            string path = Directory.GetCurrentDirectory() + @"\Template\CityTown.txt";
+            foreach (string str in File.ReadAllLines(path))
+            {
+                var arry = str.Split("\t", StringSplitOptions.RemoveEmptyEntries);
+                if (arry.Length == 2)
+                {
+                    data.Add(new CityTown
+                    {
+                        CityName = arry[1],
+                        TownName = arry[0]
+                    });
+                }
+            }
+            return data;
         }
     }
 }

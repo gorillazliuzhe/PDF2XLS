@@ -84,6 +84,11 @@ namespace PDF2XLS.Models
 
         //[ExporterHeader(DisplayName = "公里数")]
         public double GongLiShu { get; set; }
-    }   
+    }
 
+    public class CityTown
+    {
+        public string CityName { get; set; }
+        public string TownName { get; set; }
+    }
 }

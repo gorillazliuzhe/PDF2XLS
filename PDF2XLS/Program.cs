@@ -18,6 +18,7 @@ namespace PDF2XLS
             DirectoryInfo folder = new DirectoryInfo(pdfFile);
             if (folder.GetFiles().Length > 0)
             {
+                var citylist = ComHelper.GetCityTownList();
                 List<Bsjh> bsjhs = new List<Bsjh>();
                 #region PDF->XML
                 Console.WriteLine("开始生成XML");
@@ -55,6 +56,7 @@ namespace PDF2XLS
                         doc.Load(file.FullName);
                         XmlNode rootNode = doc.DocumentElement;
                         StringBuilder sb = new StringBuilder();
+                        StringBuilder lxsb = new StringBuilder();
                         foreach (XmlNode node in rootNode.ChildNodes)
                         {
                             if (node.Name == "page")
@@ -140,16 +142,17 @@ namespace PDF2XLS
                                                         // 正则匹配:03.鞍山云景.80131116 这种形式的  
                                                         if (m.Success)
                                                         {
+                                                            var zdstr = m.Value;
                                                             #region 路线
-                                                            if (m.Value.Contains("01.")) // 客户
+                                                            if (zdstr.Contains("01.")) // 客户
                                                             {
                                                                 ishave.Add("01");
                                                                 string kehu = "肯德基";
-                                                                if (m.Value.Contains("天津"))
+                                                                if (zdstr.Contains("天津"))
                                                                 {
                                                                     kehu = "百胜(天津)";
                                                                 }
-                                                                if (m.Value.Contains("北京"))
+                                                                if (zdstr.Contains("北京"))
                                                                 {
                                                                     kehu = "百胜(北京)";
                                                                 }
@@ -157,17 +160,31 @@ namespace PDF2XLS
                                                             }
                                                             else
                                                             {
-                                                                var arry = m.Value.Split(".", StringSplitOptions.RemoveEmptyEntries);
+                                                                var arry = zdstr.Split(".", StringSplitOptions.RemoveEmptyEntries);
                                                                 if (arry.Length >= 2 && !ishave.Contains(arry[0]))
                                                                 {
                                                                     ishave.Add(arry[0]);
                                                                     sb.Append("-" + arry[1]);
                                                                 }
-                                                            }
-                                                            #endregion
 
-                                                            #region 地区没想到好方法
-                                                            bsjh.LuXianName = "";
+                                                                #region 路线名称
+                                                                foreach (var cityTown in citylist)
+                                                                {
+                                                                    var city = cityTown.CityName.Replace("市", "");
+                                                                    var town = cityTown.TownName.Replace("市", "").Replace("区", "").Replace("自治县", "").Replace("县", "");
+                                                                    if (city != "" && zdstr.Contains(city) && !ishave.Contains(city))
+                                                                    {
+                                                                        ishave.Add(city);
+                                                                        lxsb.Append("/" + city);
+                                                                    }
+                                                                    if (town != "" && zdstr.Contains(town) && !ishave.Contains(town))
+                                                                    {
+                                                                        ishave.Add(town);
+                                                                        lxsb.Append("/" + town);
+                                                                    }
+                                                                }
+                                                                #endregion
+                                                            }
                                                             #endregion
                                                         }
                                                         #endregion
@@ -184,6 +201,11 @@ namespace PDF2XLS
                             sb.Remove(0, 1);
                             bsjh.LuXian = sb.ToString();
                         }
+                        if (lxsb.Length > 0)
+                        {
+                            lxsb.Remove(0, 1);
+                            bsjh.LuXianName = lxsb.ToString();
+                        }
                         bsjhs.Add(bsjh);
                     }
                 }
@@ -191,7 +213,12 @@ namespace PDF2XLS
 
                 XyunJh jh = new XyunJh { Bsjhs = bsjhs };
                 await ComHelper.ExportByTemplate(Directory.GetCurrentDirectory() + @"\JiHua\" + jihuafile, jh);
-                ComHelper.DelectDir(pdfFile);
+                try
+                {
+                    ComHelper.DelectDir(pdfFile);
+                }
+                catch (Exception) { }
+
                 Console.WriteLine("ok");
             }
             else
