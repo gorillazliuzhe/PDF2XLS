@@ -1,0 +1,694 @@
+<document>
+  <page>
+    <table rows="41" cols="17">
+      <row>
+        <cell rowspan="8" colspan="4">百胜中国运输派车单 派车单号: 6013-10482178 站点数：6</cell>
+        <cell colspan="2">出车日期：</cell>
+        <cell colspan="9">2020-02-22</cell>
+        <cell rowspan="8" colspan="2" />
+      </row>
+      <row>
+        <cell colspan="4" />
+        <cell colspan="2">承运商：</cell>
+        <cell colspan="3">沈阳鑫运</cell>
+        <cell colspan="2">车型:</cell>
+        <cell colspan="4">10吨冷藏车(三温-全)</cell>
+        <cell colspan="2" />
+      </row>
+      <row>
+        <cell colspan="4" />
+        <cell colspan="2">主班司机：</cell>
+        <cell colspan="3" />
+        <cell colspan="2">车头/厢车号：</cell>
+        <cell colspan="4" />
+        <cell colspan="2" />
+      </row>
+      <row>
+        <cell colspan="4" />
+        <cell colspan="2">副班司机：</cell>
+        <cell colspan="3" />
+        <cell colspan="2">车挂号：</cell>
+        <cell colspan="4" />
+        <cell colspan="2" />
+      </row>
+      <row>
+        <cell colspan="4" />
+        <cell colspan="2">总体积立方：</cell>
+        <cell colspan="3">23.5583</cell>
+        <cell colspan="2">总重量KG:</cell>
+        <cell colspan="4">9,108.2266</cell>
+        <cell colspan="2" />
+      </row>
+      <row>
+        <cell colspan="4" />
+        <cell colspan="2">总件数：</cell>
+        <cell colspan="3">1,065.94</cell>
+        <cell colspan="2">总里程：</cell>
+        <cell colspan="4">113.5</cell>
+        <cell colspan="2" />
+      </row>
+      <row>
+        <cell colspan="4" />
+        <cell colspan="2">干货体积：</cell>
+        <cell colspan="3">9.1785</cell>
+        <cell colspan="2">冻货体积：</cell>
+        <cell colspan="4">10.6271</cell>
+        <cell colspan="2" />
+      </row>
+      <row>
+        <cell colspan="4" />
+        <cell colspan="2">湿货体积：</cell>
+        <cell colspan="3">0.6383</cell>
+        <cell colspan="2">面包体积：</cell>
+        <cell colspan="4">3.1144</cell>
+        <cell colspan="2" />
+      </row>
+      <row>
+        <cell>站点</cell>
+        <cell>地址</cell>
+        <cell>计划到达</cell>
+        <cell colspan="2">计划离开</cell>
+        <cell colspan="2">操作</cell>
+        <cell>品类</cell>
+        <cell colspan="2">JDE订单号</cell>
+        <cell colspan="2">体积</cell>
+        <cell>重量</cell>
+        <cell>件数</cell>
+        <cell colspan="2">其它配送指令</cell>
+        <cell>备注</cell>
+      </row>
+      <row>
+        <cell rowspan="5">01.沈阳物流中心.SHYSLC</cell>
+        <cell rowspan="5">沈阳市浑南区远航东路20号</cell>
+        <cell rowspan="5">2020-02-22 15:15</cell>
+        <cell rowspan="5" colspan="2">2020-02-22 17:54</cell>
+        <cell rowspan="5" colspan="2">提货</cell>
+        <cell>冻货</cell>
+        <cell colspan="2" />
+        <cell colspan="2">10.6</cell>
+        <cell>4,818</cell>
+        <cell>370</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell>干货</cell>
+        <cell colspan="2" />
+        <cell colspan="2">9.2</cell>
+        <cell>3,648</cell>
+        <cell>310.17</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell>湿货</cell>
+        <cell colspan="2" />
+        <cell colspan="2">0.6</cell>
+        <cell>253</cell>
+        <cell>32.77</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell rowspan="2">面包</cell>
+        <cell colspan="2" />
+        <cell colspan="2">0.0</cell>
+        <cell>0</cell>
+        <cell>180</cell>
+        <cell colspan="2">退货单</cell>
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2">3.1</cell>
+        <cell>390</cell>
+        <cell>173</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell rowspan="7">02.鞍山立山大润发. 80131036</cell>
+        <cell rowspan="7">鞍山市立山区鞍千路90东S27号（大润发一 楼）</cell>
+        <cell rowspan="7">2020-02-22 19:30</cell>
+        <cell rowspan="7" colspan="2">2020-02-22 20:40</cell>
+        <cell rowspan="7" colspan="2">卸货</cell>
+        <cell>冻货</cell>
+        <cell colspan="2">20634163</cell>
+        <cell colspan="2">2.1</cell>
+        <cell>1,015</cell>
+        <cell>74</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell rowspan="3">干货</cell>
+        <cell colspan="2">20007565</cell>
+        <cell colspan="2">0.1</cell>
+        <cell>102</cell>
+        <cell>4</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell />
+        <cell colspan="2">20634169</cell>
+        <cell colspan="2">2.1</cell>
+        <cell>769</cell>
+        <cell>69.93</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell />
+        <cell colspan="2">20640569</cell>
+        <cell colspan="2">0.1</cell>
+        <cell>5</cell>
+        <cell>0.48</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell>湿货</cell>
+        <cell colspan="2">20634180</cell>
+        <cell colspan="2">0.1</cell>
+        <cell>59</cell>
+        <cell>7.6</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell rowspan="2">面包</cell>
+        <cell colspan="2">20634178</cell>
+        <cell colspan="2">0.0</cell>
+        <cell>0</cell>
+        <cell>60</cell>
+        <cell colspan="2">退货单</cell>
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell />
+        <cell colspan="2">20634160</cell>
+        <cell colspan="2">0.7</cell>
+        <cell>90</cell>
+        <cell>40</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell rowspan="7">03.鞍山云景.80131116</cell>
+        <cell rowspan="7">鞍山市铁东区湖南街16号大润发商场1层</cell>
+        <cell rowspan="7">2020-02-22 21:01</cell>
+        <cell rowspan="7" colspan="2">2020-02-22 22:39</cell>
+        <cell rowspan="7" colspan="2">卸货</cell>
+        <cell>冻货</cell>
+        <cell colspan="2">20634404</cell>
+        <cell colspan="2">4.2</cell>
+        <cell>1,868</cell>
+        <cell>145</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell rowspan="3">干货</cell>
+        <cell colspan="2">20007571</cell>
+        <cell colspan="2">0.1</cell>
+        <cell>102</cell>
+        <cell>4</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell />
+        <cell colspan="2">20634421</cell>
+        <cell colspan="2">2.5</cell>
+        <cell>979</cell>
+        <cell>89.03</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell />
+        <cell colspan="2">20640613</cell>
+        <cell colspan="2">0.1</cell>
+        <cell>4</cell>
+        <cell>0.09</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell>湿货</cell>
+        <cell colspan="2">20634443</cell>
+        <cell colspan="2">0.2</cell>
+        <cell>79</cell>
+        <cell>10</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell rowspan="2">面包</cell>
+        <cell colspan="2">20634440</cell>
+        <cell colspan="2">0.0</cell>
+        <cell>0</cell>
+        <cell>50</cell>
+        <cell colspan="2">退货单</cell>
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell />
+        <cell colspan="2">20634400</cell>
+        <cell colspan="2">1.3</cell>
+        <cell>158</cell>
+        <cell>70</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell rowspan="7">04.鞍山向阳.86013282</cell>
+        <cell rowspan="7">鞍山市铁东区解放东路80号</cell>
+        <cell rowspan="7">2020-02-22 22:46</cell>
+        <cell rowspan="7" colspan="2">2020-02-22 23:50</cell>
+        <cell rowspan="7" colspan="2">卸货</cell>
+        <cell>冻货</cell>
+        <cell colspan="2">20635444</cell>
+        <cell colspan="2">2.5</cell>
+        <cell>1,161</cell>
+        <cell>82</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell rowspan="3">干货</cell>
+        <cell colspan="2">20007593</cell>
+        <cell colspan="2">0.1</cell>
+        <cell>76</cell>
+        <cell>3</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell />
+        <cell colspan="2">20635452</cell>
+        <cell colspan="2">2.1</cell>
+        <cell>861</cell>
+        <cell>73.5</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell />
+        <cell colspan="2">20640747</cell>
+        <cell colspan="2">0.1</cell>
+        <cell>5</cell>
+        <cell>0.48</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell>湿货</cell>
+        <cell colspan="2">20635463</cell>
+        <cell colspan="2">0.2</cell>
+        <cell>62</cell>
+        <cell>9</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell rowspan="2">面包</cell>
+        <cell colspan="2">20635462</cell>
+        <cell colspan="2">0.0</cell>
+        <cell>0</cell>
+        <cell>20</cell>
+        <cell colspan="2">退货单</cell>
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell />
+        <cell colspan="2">20635440</cell>
+        <cell colspan="2">0.8</cell>
+        <cell>94</cell>
+        <cell>42</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell rowspan="4">05.鞍山万达PH.80131547</cell>
+        <cell rowspan="4">鞍山市立山区千山中路278甲号</cell>
+        <cell rowspan="4">2020-02-23 00:06</cell>
+        <cell rowspan="4" colspan="2">2020-02-23 00:19</cell>
+        <cell rowspan="4" colspan="2">卸货</cell>
+        <cell>冻货</cell>
+        <cell colspan="2">20634752</cell>
+        <cell colspan="2">0.2</cell>
+        <cell>76</cell>
+        <cell>7</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell rowspan="2">干货</cell>
+        <cell colspan="2">20599790</cell>
+        <cell colspan="2">0.0</cell>
+        <cell>1</cell>
+        <cell>0.02</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell />
+        <cell colspan="2">20634756</cell>
+        <cell colspan="2">0.2</cell>
+        <cell>83</cell>
+        <cell>8.37</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell>湿货</cell>
+        <cell colspan="2">20634764</cell>
+        <cell colspan="2">0.0</cell>
+        <cell>14</cell>
+        <cell>1.47</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell rowspan="2">06.鞍山万达KFC.80131168</cell>
+        <cell rowspan="2">鞍山市立山区千山中路278甲号</cell>
+        <cell rowspan="2">2020-02-23 00:20</cell>
+        <cell rowspan="2" colspan="2">2020-02-23 01:16</cell>
+        <cell rowspan="2" colspan="2">卸货</cell>
+        <cell>冻货</cell>
+        <cell colspan="2">20634602</cell>
+        <cell colspan="2">1.6</cell>
+        <cell>698</cell>
+        <cell>62</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell>干货</cell>
+        <cell colspan="2">20007576</cell>
+        <cell colspan="2">0.0</cell>
+        <cell>51</cell>
+        <cell>2</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+    </table>
+  </page>
+  <page>
+    <table rows="16" cols="18">
+      <row>
+        <cell rowspan="8" colspan="5">百胜中国运输派车单 派车单号: 6013-10482178 站点数：6</cell>
+        <cell colspan="2">出车日期：</cell>
+        <cell colspan="9">2020-02-22</cell>
+        <cell rowspan="8" colspan="2" />
+      </row>
+      <row>
+        <cell colspan="5" />
+        <cell colspan="2">承运商：</cell>
+        <cell colspan="3">沈阳鑫运</cell>
+        <cell colspan="2">车型:</cell>
+        <cell colspan="4">10吨冷藏车(三温-全)</cell>
+        <cell colspan="2" />
+      </row>
+      <row>
+        <cell colspan="5" />
+        <cell colspan="2">主班司机：</cell>
+        <cell colspan="3" />
+        <cell colspan="2">车头/厢车号：</cell>
+        <cell colspan="4" />
+        <cell colspan="2" />
+      </row>
+      <row>
+        <cell colspan="5" />
+        <cell colspan="2">副班司机：</cell>
+        <cell colspan="3" />
+        <cell colspan="2">车挂号：</cell>
+        <cell colspan="4" />
+        <cell colspan="2" />
+      </row>
+      <row>
+        <cell colspan="5" />
+        <cell colspan="2">总体积立方：</cell>
+        <cell colspan="3">23.5583</cell>
+        <cell colspan="2">总重量KG:</cell>
+        <cell colspan="4">9,108.2266</cell>
+        <cell colspan="2" />
+      </row>
+      <row>
+        <cell colspan="5" />
+        <cell colspan="2">总件数：</cell>
+        <cell colspan="3">1,065.94</cell>
+        <cell colspan="2">总里程：</cell>
+        <cell colspan="4">113.5</cell>
+        <cell colspan="2" />
+      </row>
+      <row>
+        <cell colspan="5" />
+        <cell colspan="2">干货体积：</cell>
+        <cell colspan="3">9.1785</cell>
+        <cell colspan="2">冻货体积：</cell>
+        <cell colspan="4">10.6271</cell>
+        <cell colspan="2" />
+      </row>
+      <row>
+        <cell colspan="5" />
+        <cell colspan="2">湿货体积：</cell>
+        <cell colspan="3">0.6383</cell>
+        <cell colspan="2">面包体积：</cell>
+        <cell colspan="4">3.1144</cell>
+        <cell colspan="2" />
+      </row>
+      <row>
+        <cell>站点</cell>
+        <cell>地址</cell>
+        <cell colspan="2">计划到达</cell>
+        <cell colspan="2">计划离开</cell>
+        <cell colspan="2">操作</cell>
+        <cell>品类</cell>
+        <cell colspan="2">JDE订单号</cell>
+        <cell colspan="2">体积</cell>
+        <cell>重量</cell>
+        <cell>件数</cell>
+        <cell colspan="2">其它配送指令</cell>
+        <cell>备注</cell>
+      </row>
+      <row>
+        <cell rowspan="5">06.鞍山万达KFC.80131168</cell>
+        <cell rowspan="5">鞍山市立山区千山中路278甲号</cell>
+        <cell rowspan="5" colspan="2">2020-02-23 00:20</cell>
+        <cell rowspan="5" colspan="2">2020-02-23 01:16</cell>
+        <cell rowspan="5" colspan="2">卸货</cell>
+        <cell rowspan="2">干货</cell>
+        <cell colspan="2">20634614</cell>
+        <cell colspan="2">1.6</cell>
+        <cell>607</cell>
+        <cell>55.23</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell />
+        <cell colspan="2">20640643</cell>
+        <cell colspan="2">0.0</cell>
+        <cell>2</cell>
+        <cell>0.04</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell>湿货</cell>
+        <cell colspan="2">20634630</cell>
+        <cell colspan="2">0.1</cell>
+        <cell>38</cell>
+        <cell>4.7</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell rowspan="2">面包</cell>
+        <cell colspan="2">20634627</cell>
+        <cell colspan="2">0.0</cell>
+        <cell>0</cell>
+        <cell>50</cell>
+        <cell colspan="2">退货单</cell>
+        <cell />
+      </row>
+      <row>
+        <cell />
+        <cell />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell colspan="2" />
+        <cell />
+        <cell colspan="2">20634597</cell>
+        <cell colspan="2">0.4</cell>
+        <cell>47</cell>
+        <cell>21</cell>
+        <cell colspan="2" />
+        <cell />
+      </row>
+      <row>
+        <cell colspan="18">派车单签字栏</cell>
+      </row>
+      <row>
+        <cell colspan="3">场地装车检查事项 冷冻段预冷温度:_________℃ 冷藏段预冷温度:_________℃ 装车完毕，车厢已上锁 装车司机签名: 外包运输车辆温度追踪记录仪编号:</cell>
+        <cell colspan="15">在途两次车厢温度记录： 第一次：冻货达到第一家餐厅时， 冷冻段车厢温度：_________℃ 第二次：冻货达到最后一家餐厅时， 冷冻段车厢温度：_________℃ 仓库装车：...................................................................................................................................... 质量反馈：...................................................................................................................................... 送货司机签名：</cell>
+      </row>
+    </table>
+  </page>
+  <page>
+    <cell>The trial version converts only 3 pages. Evaluation only.</cell>
+    <cell>Converted by PDF Focus .Net 7.3.1.21 trial!</cell>
+    <cell>(Licensed version doesn't display this notice!)</cell>
+    <cell>Click to get the license for PDF Focus .Net.</cell>
+    <cell>https://www.sautinsoft.com/products/pdf-focus/order.php</cell>
+  </page>
+</document>
