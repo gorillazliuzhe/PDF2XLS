@@ -151,11 +151,6 @@ namespace PDF2XLS
                                                             {
                                                                 kehu = "百胜(北京)";
                                                             }
-                                                            var arry = m.Value.Split(".", StringSplitOptions.RemoveEmptyEntries);
-                                                            if (arry.Length >= 2)
-                                                            {
-                                                                sb.Append("-" + arry[1]);
-                                                            }
                                                             bsjh.KeHu = kehu;
                                                         }
                                                         else
@@ -194,6 +189,7 @@ namespace PDF2XLS
 
             XyunJh jh = new XyunJh { Bsjhs = bsjhs };
             await ComHelper.ExportByTemplate(Directory.GetCurrentDirectory() + @"\JiHua\" + jihuafile, jh);
+            ComHelper.DelectDir(pdfFile);
             Console.WriteLine("ok");
             Console.ReadKey();
             #region 测试数据
