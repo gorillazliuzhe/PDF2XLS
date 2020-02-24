@@ -164,7 +164,18 @@ namespace PDF2XLS
                                                                 if (arry.Length >= 2 && !ishave.Contains(arry[0]))
                                                                 {
                                                                     ishave.Add(arry[0]);
-                                                                    sb.Append("-" + arry[1]);
+                                                                    string zm = arry[1].Trim();
+                                                                    string fiststr = zm.Substring(0, 1);
+                                                                    if (int.TryParse(fiststr, out int _))
+                                                                    {
+                                                                        zm = zm.Replace(fiststr, "");
+                                                                    }
+                                                                    string laststr = zm.Substring(zm.Length - 1, 1);
+                                                                    if (int.TryParse(laststr, out int _))
+                                                                    {
+                                                                        zm = zm.Replace(laststr, "");
+                                                                    }
+                                                                    sb.Append("-" + zm);
                                                                 }
 
                                                                 #region 路线名称
