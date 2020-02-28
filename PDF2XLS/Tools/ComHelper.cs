@@ -155,7 +155,7 @@ namespace PDF2XLS.Tools
         /// <returns></returns>
         public static string GetWeek()
         {
-            string week = string.Empty;
+            string week;
             switch ((int)DateTime.Now.AddDays(1).DayOfWeek)
             {
                 case 0:

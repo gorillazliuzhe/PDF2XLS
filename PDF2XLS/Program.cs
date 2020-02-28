@@ -7,6 +7,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Xml;
+// ReSharper disable All
 
 namespace PDF2XLS
 {
@@ -228,7 +229,10 @@ namespace PDF2XLS
                 {
                     ComHelper.DelectDir(pdfFile);
                 }
-                catch (Exception) { }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("删除文件异常:" + ex);
+                }
 
                 Console.WriteLine("ok");
             }
